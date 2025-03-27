@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollViewDrawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Recipe Name -->
+        <TextView
+            android:id="@+id/recipeNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_recipe_name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/recipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_recipe_name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="@drawable/input_background"/>
+
+        <!-- Upload Image Section -->
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/recipeImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/imageDec"/>
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_image"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/light_blue"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Cook Time -->
+        <EditText
+            android:id="@+id/cookTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cook_time"
+            android:inputType="number"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/input_background"/>
+
+        <!-- Ingredients Section -->
+        <edu.sandesh.mealmate.utils.CustomExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Add Missing Ingredient -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="12dp">
+
+            <EditText
+                android:id="@+id/newIngredientInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_missing_ingredient"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:background="@drawable/input_background"
+                android:elevation="2dp"/>
+
+            <Button
+                android:id="@+id/addIngredientButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_ingredient"
+                android:textSize="16sp"
+                android:padding="12dp"
+                android:backgroundTint="@color/light_blue"/>
+        </LinearLayout>
+
+        <!-- Instructions Section -->
+        <TextView
+            android:id="@+id/instructionsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_instructions"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="8dp"
+            android:padding="12dp"
+            android:layout_marginTop="12dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/instructionRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Add Instruction Button -->
+        <Button
+            android:id="@+id/addInstructionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_instruction"
+            android:textColor="@color/on_primary"
+            android:textSize="16sp"
+            android:backgroundTint="@color/light_blue"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Save Recipe Button (Prominent) -->
+        <Button
+            android:id="@+id/saveRecipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_recipe"
+            android:textColor="@color/on_primary"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:padding="12dp"
+            android:minHeight="56dp"
+            android:gravity="center"
+            android:backgroundTint="@color/success"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</ScrollView>

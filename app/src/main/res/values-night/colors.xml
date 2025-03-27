@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#4FC3F7</color>
+    <color name="primary_variant">#29B6F6</color>
+    <color name="on_primary">#000000</color>
+    <color name="on_primary_variant">#000000</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#81D4FA</color>
+    <color name="on_secondary">#000000</color>
+
+    <!-- Background and Surface -->
+    <color name="background">#556B2F</color>
+    <color name="surface">#3E2723</color>
+    <color name="on_surface">#FFE0B2</color>
+    <color name="on_surface_variant">#D7CCC8</color>
+
+    <!-- Navigation Colors -->
+    <color name="navy_blue">#000080</color>
+    <color name="violet">#556B2F</color>
+    <color name="light_blue">#4FC3F7</color>
+    <color name="olive_green">#556B2F</color>
+    <color name="red">#F44336</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#4FC3F7</color>
+
+    <!-- State Colors -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#2E7D32</color>
+
+    <!-- Neutral Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="breakfastYellow">#FFEB3B</color>
+    <color name="lunchGreen">#4CAF50</color>
+    <color name="dinnerOrange">#FF7043</color>
+
+    <color name="textDarkBrown">#FFFFFF</color>
+    <color name="textLightBeige">#FFFFFF</color>
+
+    <color name="chip_selector">#556B2F</color>
+</resources>

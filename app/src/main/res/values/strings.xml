@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Meal Mate</string>
+    <!-- Landing Screen Texts -->
+    <string name="app_title">Welcome to MealMate</string>
+    <string name="home_desc">Eat healthy ,live happily!</string>
+    <string name="imageDec">Background image for MealMate</string>
+
+    <!-- Button Texts -->
+    <string name="signup">Sign Up</string>
+    <string name="signIn">Log In</string>
+    <string name="logoDesc">This is logo of MealMate </string>
+    <string name="alreadyHaveAccountSignIn">Already have an account? <b>Sign In</b></string>
+
+
+    <!-- Input Field Hints -->
+    <string name="enterEmail">Enter your email</string>
+    <string name="choosePass">Choose a password</string>
+    <string name="confirmPass">Confirm your password</string>
+
+    <string name="enterPass"> Enter your password</string>
+    <string name="forgotPas">Forgot Password?</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_sign_in">Back to Sign In</string>
+
+
+    <string name="loading">Please wait, MealMate is processing...</string>
+    <string name="profile_image_desc">Profile Image</string>
+    <string name="upload_photo">Upload Photo </string>
+    <string name="full_name">Full Name </string>
+    <string name="mobile_number">Mobile Number </string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="age"> Age </string>
+    <string name="save_profile"> Save Profile</string>
+    <string name="gender"> Select Gender </string>
+
+
+    <string name="upload_image">Upload Image</string>
+    <string name="add_ingredient">Add</string>
+    <string name="add_instruction">Add Instruction</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="update_recipe"> Update Recipe</string>
+
+    <string name="title_recipe_name">Recipe Name</string>
+    <string name="hint_recipe_name">Enter the recipe name</string>
+
+    <!-- Input Hints -->
+    <string name="hint_cook_time">Enter Cook Time (in Minutes)</string>
+    <string name="hint_missing_ingredient">Enter missing ingredient</string>
+
+    <!-- Section Titles -->
+    <string name="title_instructions">Instructions</string>
+    <string name="savedRecipe">Saved Recipes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="delegate_title">Delegate Shopping</string>
+    <string name="select_meal">Select Meals</string>
+    <string name="ingredients_list">Ingredients List</string>
+    <string name="type_store_name">Type Store Name</string>
+    <string name="select_remote_store">Select Remote Store</string>
+    <string name="select_contacts">Select Contacts</string>
+    <string name="delegate">Delegate</string>
+
+    <string name="sms_message">Will you pick these items for me?</string>
+    <string name="total_price">Total Price:</string>
+    <string name="location">Location:</string>
+    <string name="unpurchased">Unpurchased</string>
+    <string name="purchased">Purchased</string>
+    <string name="ignore">Ignore</string>
+
+    <!-- Errors and Validations -->
+    <string name="error_no_meal_selected">Please select at least one meal category.</string>
+    <string name="error_no_ingredient_selected">Please select at least one ingredient.</string>
+    <string name="error_no_contact_selected">Please select at least one contact.</string>
+    <string name="error_invalid_price">Please enter a valid price.</string>
+    <string name="error_no_store">Please enter or select a store.</string>
+
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="price">Price (NPR)</string>
+
+
+</resources>

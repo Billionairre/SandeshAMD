@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer White Border -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white"/>
+            <size android:width="150dp" android:height="150dp"/>
+        </shape>
+    </item>
+
+    <!-- Inner Circle -->
+    <item android:top="4dp" android:bottom="4dp" android:left="4dp" android:right="4dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/on_surface_variant"/>
+            <size android:width="140dp" android:height="140dp"/>
+            <corners android:radius="70dp"/>
+        </shape>
+    </item>
+
+</layer-list>

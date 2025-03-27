@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Progress Indicator Styles -->
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator</item>
+        <item name="trackThickness">4dp</item>
+        <item name="indicatorSize">40dp</item>
+        <item name="trackColor">#E0E0E0</item>
+        <item name="indicatorColor">@color/primary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+</resources> 

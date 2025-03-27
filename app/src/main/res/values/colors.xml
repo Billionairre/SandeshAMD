@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#FF6D00</color>
+    <color name="primary_variant">#DD2C00</color>
+    <color name="primary_dark">#DD2C00</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_variant">#F5F5F5</color>
+    <color name="yellow">#FFC107</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#FFAB40</color>
+    <color name="on_secondary">#000000</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#FF7043</color>
+
+    <!-- Background and Surface -->
+    <color name="background">#556B2F</color>
+    <color name="surface">#FFE0B2</color>
+    <color name="on_surface">#4E342E</color>
+    <color name="on_surface_variant">#8D6E63</color>
+
+    <!-- Navigation Colors -->
+    <color name="navy_blue">#000080</color>
+    <color name="violet">#556B2F</color>
+    <color name="light_blue">#4FC3F7</color>
+    <color name="olive_green">#556B2F</color>
+    <color name="red">#F44336</color>
+
+    <!-- State Colors -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#2E7D32</color>
+
+    <!-- Neutral Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="breakfastYellow">#FFEB3B</color>
+    <color name="lunchGreen">#4CAF50</color>
+    <color name="dinnerOrange">#FF7043</color>
+
+    <color name="textDarkBrown">#4E342E</color>  <!-- Dark Brown for better contrast on yellow/orange -->
+    <color name="textLightBeige">#FFF3E0</color>
+
+    <color name="chip_selector">#FFE0B2</color>
+
+</resources>

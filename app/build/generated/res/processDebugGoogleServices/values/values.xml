@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">712289667615</string>
+    <string name="google_api_key" translatable="false">AIzaSyAs0Q7HLSyAq3xeNsPQLXg5wz4bfrZxWUg</string>
+    <string name="google_app_id" translatable="false">1:712289667615:android:4daf413331474e51fde32a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAs0Q7HLSyAq3xeNsPQLXg5wz4bfrZxWUg</string>
+    <string name="google_storage_bucket" translatable="false">sandesh-bh.firebasestorage.app</string>
+    <string name="project_id" translatable="false">sandesh-bh</string>
+</resources>

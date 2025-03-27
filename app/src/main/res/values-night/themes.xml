@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MealMate.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+    <style name="Theme.MealMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Colors (Dark Mode Adjusted) -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <!-- Dark Background -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_variant</item>
+        <item name="android:navigationBarColor">@color/navy_blue</item>
+
+        <!-- Default Font (Roboto for Body Text) -->
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="FullScreenModalStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="behavior_hideable">false</item>
+        <item name="behavior_peekHeight">0dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Headings (Bold - Montserrat) -->
+    <style name="TextAppearance.Heading" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <!-- Tertiary / Accent Text (Poppins) -->
+    <style name="TextAppearance.Tertiary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+
+    <style name="GenderHintStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#4E342E</item> <!-- Darker text for better visibility -->
+    </style>
+
+
+</resources>

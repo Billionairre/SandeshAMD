@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Tab Layout for Contacts and Location -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/primary"
+        app:tabSelectedTextColor="@color/primary"
+        app:tabTextColor="@color/on_surface">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacts" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_stores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stores" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <!-- ViewPager to Manage Tabs -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Delegate Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_delegate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delegate"
+        style="@style/Widget.MaterialComponents.Button"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/ic_send"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:backgroundTint="@color/primary"
+        android:textColor="@color/on_primary" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Color for the Chip -->
+    <solid android:color="@color/success"/>
+
+    <!-- Rounded Corners for the Chip Shape -->
+    <corners android:radius="16dp"/>
+
+    <!-- Padding Inside the Chip -->
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="4dp"
+        android:bottom="4dp"/>
+</shape>

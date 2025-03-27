@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F8F5E4"
+    android:padding="16dp">
+
+    <!-- Header with title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MealMate Assistant"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#556B2F"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/closeChatButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            app:tint="#556B2F"
+            android:padding="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Close chatbot"/>
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#6B8E23"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Chat Messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatMessagesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <!-- Chat Input Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Ask about recipes, meals, etc..."
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxBackgroundColor="#FFFFFF">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/chatInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="4"
+                android:imeOptions="actionSend"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendMessageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Send"
+            app:cornerRadius="8dp"
+            android:backgroundTint="#6B8E23"
+            android:textColor="#F8F5E4"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Quick Suggestions -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:scrollbars="none">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <com.google.android.material.chip.Chip
+                android:id="@+id/suggestionChip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recipe ideas"
+                android:textColor="#6B8E23"
+                app:chipBackgroundColor="#FFFFFF"
+                app:chipStrokeColor="#6B8E23"
+                app:chipStrokeWidth="1dp"
+                android:layout_marginEnd="4dp"/>
+                
+            <com.google.android.material.chip.Chip
+                android:id="@+id/suggestionChip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meal planning help"
+                android:textColor="#6B8E23"
+                app:chipBackgroundColor="#FFFFFF"
+                app:chipStrokeColor="#6B8E23"
+                app:chipStrokeWidth="1dp"
+                android:layout_marginEnd="4dp"/>
+                
+            <com.google.android.material.chip.Chip
+                android:id="@+id/suggestionChip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grocery list tips"
+                android:textColor="#6B8E23"
+                app:chipBackgroundColor="#FFFFFF"
+                app:chipStrokeColor="#6B8E23"
+                app:chipStrokeWidth="1dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout> 

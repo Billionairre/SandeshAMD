@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MealMate.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/olive_green</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item> <!-- Ensure lowercase filename -->
+        <!-- Fixed attribute -->
+    </style>
+
+    <style name="FullScreenModalStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="behavior_hideable">false</item>
+        <item name="behavior_peekHeight">0dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

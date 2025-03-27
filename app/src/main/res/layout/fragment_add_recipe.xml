@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5E4"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Recipe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/olive_green"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"/>
+
+        <!-- Step Indicators -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/stepIndicator1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1\nBasics"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@color/olive_green"
+                android:textColor="@android:color/white"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:id="@+id/stepIndicator2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2\nIngredients"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/olive_green"
+                android:layout_marginHorizontal="4dp"/>
+
+            <TextView
+                android:id="@+id/stepIndicator3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3\nInstructions"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/olive_green"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <!-- Step 1: Basic Recipe Information -->
+        <LinearLayout
+            android:id="@+id/step1Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#F0EBD8"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Recipe Details"
+                        android:textSize="18sp"
+                        android:textColor="@color/olive_green"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Recipe Image Button -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="16dp">
+
+                        <ImageView
+                            android:id="@+id/recipeImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:background="#E6E6E6"
+                            android:contentDescription="Recipe Image"/>
+
+                        <Button
+                            android:id="@+id/uploadImageButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Upload Image"
+                            android:layout_centerInParent="true"
+                            android:backgroundTint="#9A8C65"
+                            android:textColor="#F8F5E4"/>
+                    </RelativeLayout>
+
+                    <!-- Recipe Name -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Recipe Name"
+                        app:boxStrokeColor="@color/olive_green"
+                        app:hintTextColor="@color/olive_green"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <EditText
+                            android:id="@+id/recipeName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:maxLines="1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Cooking Time -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="8dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="4dp"
+                            android:hint="Cook Time (min)"
+                            app:boxStrokeColor="@color/olive_green"
+                            app:hintTextColor="@color/olive_green"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/cookTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLines="1"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="4dp"
+                            android:hint="Prep Time (min)"
+                            app:boxStrokeColor="@color/olive_green"
+                            app:hintTextColor="@color/olive_green"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                            <EditText
+                                android:id="@+id/prepTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLines="1"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <!-- Serves -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Serves (number of people)"
+                        app:boxStrokeColor="@color/olive_green"
+                        app:hintTextColor="@color/olive_green"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                        <EditText
+                            android:id="@+id/serves"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLines="1"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Navigation buttons for Step 1 -->
+            <Button
+                android:id="@+id/nextToIngredientsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next: Add Ingredients"
+                android:backgroundTint="#6B8E23"
+                android:textColor="#F8F5E4"
+                android:drawableEnd="@drawable/ic_arrow_forward"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+        </LinearLayout>
+
+        <!-- Step 2: Ingredients Selection -->
+        <LinearLayout
+            android:id="@+id/step2Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#F0EBD8"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select Ingredients"
+                        android:textSize="18sp"
+                        android:textColor="@color/olive_green"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Add New Ingredient Input -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="8dp">
+
+                        <EditText
+                            android:id="@+id/newIngredientInput"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Add new ingredient"
+                            android:padding="12dp"
+                            android:background="@android:color/white"
+                            android:layout_marginEnd="8dp"/>
+
+                        <Button
+                            android:id="@+id/addIngredientButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add"
+                            android:backgroundTint="#9A8C65"
+                            android:textColor="#F8F5E4"/>
+                    </LinearLayout>
+
+                    <!-- Ingredients List -->
+                    <edu.sandesh.mealmate.utils.CustomExpandableListView
+                        android:id="@+id/expandableListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:divider="#F8F5E4"
+                        android:dividerHeight="1dp"
+                        android:background="#F0EBD8"
+                        android:groupIndicator="@null"
+                        android:childDivider="#F8F5E4"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Navigation buttons for Step 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backToDetailsButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Back"
+                    android:backgroundTint="#9A8C65"
+                    android:textColor="#F8F5E4"
+                    android:drawableStart="@drawable/ic_arrow_back"
+                    android:layout_marginEnd="4dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+
+                <Button
+                    android:id="@+id/nextToInstructionsButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Next"
+                    android:backgroundTint="#6B8E23"
+                    android:textColor="#F8F5E4"
+                    android:drawableEnd="@drawable/ic_arrow_forward"
+                    android:layout_marginStart="4dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Step 3: Instructions -->
+        <LinearLayout
+            android:id="@+id/step3Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#F0EBD8"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add Instructions"
+                        android:textSize="18sp"
+                        android:textColor="@color/olive_green"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Instructions Section -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Click to add instruction steps:"
+                        android:textSize="16sp"
+                        android:textColor="#7D745E"
+                        android:layout_marginBottom="8dp"/>
+
+                    <Button
+                        android:id="@+id/addInstructionButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add Instruction Step"
+                        android:backgroundTint="#9A8C65"
+                        android:textColor="#F8F5E4"
+                        android:layout_marginBottom="8dp"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/instructionRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="#F0EBD8"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Navigation buttons for Step 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <Button
+                    android:id="@+id/backToIngredientsButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Back"
+                    android:backgroundTint="#9A8C65"
+                    android:textColor="#F8F5E4"
+                    android:drawableStart="@drawable/ic_arrow_back"
+                    android:layout_marginEnd="4dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+
+                <Button
+                    android:id="@+id/saveRecipeButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Save Recipe"
+                    android:backgroundTint="#6B8E23"
+                    android:textColor="#F8F5E4"
+                    android:drawableEnd="@drawable/ic_check"
+                    android:layout_marginStart="4dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

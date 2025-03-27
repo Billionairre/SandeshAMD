@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/delegate_item_meal.xml -->
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chipMeal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Meal Name"
+    android:textColor="#7D745E"
+    app:chipBackgroundColor="#F0EBD8"
+    app:chipStrokeColor="#9A8C65"
+    app:chipStrokeWidth="1dp"
+    app:closeIconVisible="false"
+    android:checkable="true"
+    app:checkedIconVisible="true"
+    app:checkedIcon="@drawable/ic_check"
+    app:checkedIconTint="#556B2F"
+    app:chipIconTint="#556B2F"
+    style="@style/Widget.Material3.Chip.Assist.Elevated" />

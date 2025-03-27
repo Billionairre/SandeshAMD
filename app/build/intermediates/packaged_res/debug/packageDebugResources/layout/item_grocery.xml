@@ -1,0 +1,76 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#F0EBD8"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title with Progress Indicator -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/mealProgressIndicator"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:indicatorSize="24dp"
+                app:trackThickness="4dp"
+                app:indicatorColor="#6B8E23"
+                app:trackColor="#E8E4D2"/>
+
+            <TextView
+                android:id="@+id/mealTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Pizza"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3E3A29"/>
+
+            <!-- Add All Button -->
+            <Button
+                android:id="@+id/btnAddAll"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Add All"
+                android:textSize="12sp"
+                android:layout_marginEnd="8dp"
+                android:paddingHorizontal="8dp"
+                android:backgroundTint="#9A8C65"
+                android:textColor="#F8F5E4"/>
+
+            <!-- Meal Progress Text -->
+            <TextView
+                android:id="@+id/mealProgressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="50% Purchased"
+                android:textSize="14sp"
+                android:textColor="#7D745E"/>
+        </LinearLayout>
+
+        <!-- RecyclerView for Ingredients -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ingredientRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

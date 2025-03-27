@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5E4">
+
+    <!-- Main Content in a Scrollable Layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Header with Title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingBottom="16dp">
+                
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Welcome to MealMate"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#556B2F"/>
+                
+                <!-- Notification Icon -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/notificationIcon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_notifications"
+                    app:tint="#556B2F"
+                    android:contentDescription="Notifications"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#556B2F"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:focusable="true"/>
+            </LinearLayout>
+
+            <!-- Today's Meals Title -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Today's Meals"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#556B2F"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <!-- Horizontal RecyclerView for Today's Meals -->
+            <TextView
+                android:id="@+id/noMealText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No meal plan for today"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textColor="#7D745E"
+                android:padding="16dp"
+                android:visibility="gone"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#F0EBD8"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp">
+                
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/todaysMealRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:scrollbars="none"
+                    android:padding="8dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Toggle View Weekly Plan -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/viewWeeklyPlanButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Weekly Plan"
+                app:cornerRadius="8dp"
+                android:backgroundTint="#9A8C65"
+                android:textColor="#F8F5E4"
+                android:padding="12dp"
+                app:icon="@drawable/ic_meal"
+                app:iconGravity="textStart"
+                app:iconTint="#F8F5E4"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Favorite Stores Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Favorite Stores"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#556B2F"
+                    android:layout_marginEnd="4dp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/filterStoresIcon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_filter"
+                    app:tint="#556B2F"
+                    android:contentDescription="Filter Stores"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#556B2F"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:focusable="true"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+                <!-- Grocery List Icon -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/groceryListIcon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_grocery"
+                    app:tint="#556B2F"
+                    android:contentDescription="Grocery List"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#556B2F"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="4dp"/>
+
+                <!-- Add Favorite Store Icon -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/addFavStoreIcon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_add"
+                    app:tint="#556B2F"
+                    android:contentDescription="Add Favorite Store"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#556B2F"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:focusable="true"/>
+
+                <!-- View All Stores on Map Icon -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/viewMapIcon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_explore"
+                    app:tint="#556B2F"
+                    android:contentDescription="View Stores on Map"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#556B2F"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:focusable="true"/>
+            </LinearLayout>
+
+            <!-- Favorite Stores RecyclerView inside a MaterialCardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#F0EBD8"
+                android:layout_marginTop="8dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/favStoresRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Chatbot Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MealMate Assistant"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#556B2F"/>
+            </LinearLayout>
+
+            <!-- Spacer to push content up -->
+            <View
+                android:layout_width="10dp"
+                android:layout_height="100dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Floating Action Button (FAB) for Shopping Cart -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_grocery"
+        android:contentDescription="Shopping Cart"
+        app:backgroundTint="#6B8E23"
+        app:tint="#F8F5E4"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Floating Action Button (FAB) for Chatbot -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chatbotFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_chat"
+        android:contentDescription="Chat with MealMate Assistant"
+        app:backgroundTint="#6B8E23"
+        app:tint="#F8F5E4"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

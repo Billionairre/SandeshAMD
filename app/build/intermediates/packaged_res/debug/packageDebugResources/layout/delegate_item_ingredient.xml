@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/delegate_item_ingredient.xml -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <CheckBox
+            android:id="@+id/checkBoxIngredient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#556B2F"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/textViewIngredientName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ingredient Name"
+            android:textColor="#7D745E"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextPrice"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:textColorHint="#9A8C65"
+            android:textColor="#556B2F"
+            android:backgroundTint="#6B8E23"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

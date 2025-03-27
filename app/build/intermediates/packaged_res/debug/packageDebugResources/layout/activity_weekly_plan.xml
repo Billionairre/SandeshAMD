@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true">  <!-- ✅ Prevents overlapping with status bar -->
+
+    <!-- AppBarLayout to properly position TabLayout below the status bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"> <!-- ✅ Ensures it doesn't get hidden by status bar -->
+
+        <!-- Tab Layout for Weekly Plan -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayoutDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/surface"
+            app:tabIndicatorColor="@color/primary"
+            app:tabTextColor="@color/on_surface"
+            app:tabSelectedTextColor="@color/primary_variant"
+            app:tabMode="scrollable"/> <!-- ✅ Makes tabs scrollable if they overflow -->
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- ViewPager2 for Each Day's Meal Plans -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerMeals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"/> <!-- ✅ Ensures ViewPager fills available space -->
+
+    <!-- Floating Button to Add New Meal -->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

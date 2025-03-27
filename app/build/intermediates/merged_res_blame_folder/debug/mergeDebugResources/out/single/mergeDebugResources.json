@@ -1,0 +1,686 @@
+[
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\anim_rotate_forward.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\anim\\rotate_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_delegate_ingredient.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_delegate_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_contact_selection.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_contact_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_invoice_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\invoice_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_expand.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_circle_bg.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\circle_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_expandable_list_item.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\expandable_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_no_image_placeholder.jpg.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\no_image_placeholder.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_bg_chat_bot.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\bg_chat_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\img_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\anim_rotate_backward.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\anim\\rotate_backward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_label_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\label_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_panipuri.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\panipuri.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_my_location.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_my_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\anim_fab_open.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\anim\\fab_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\anim_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_saved_store.png.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\saved_store.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_landing.jpg.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\landing.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_map_explorer.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_map_explorer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\menu_recipe_menu.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\menu\\recipe_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_splash.jpg.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\splash.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_store.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_chip_avilable.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\chip_avilable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_grok_item_contact.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\grok_item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_import.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_import.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_grok_dialog_location.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\grok_dialog_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_grocery_item_ingredient.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\grocery_item_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_store_selection.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_store_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_full_screen_modal.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_full_screen_modal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_favorite.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_steps.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_steps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_button_rounded.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\button_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_dialog_edit_grocery.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\dialog_edit_grocery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_delegate_item_meal.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\delegate_item_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_robotoregular.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\robotoregular.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_store_selection.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_store_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_recipe_card.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\recipe_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_chip_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\chip_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_img.png.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_grok_delegate.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_grok_delegate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_weekly_plan.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_weekly_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_roboto_regular.ttf.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\roboto_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\anim_layout_animation_fall_down.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\anim\\layout_animation_fall_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_delegate_item_ingredient.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\delegate_item_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_cook.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_cook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_card_unselected.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\card_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_delegate.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_delegate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_meal.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_recipe_edit.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_recipe_edit.xml"
+    },
+    {
+        "merged": "edu.sandesh.mealmate.app-debug-50:/layout_item_store.xml.flat",
+        "source": "edu.sandesh.mealmate.app-main-52:/layout/item_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_poppins_light.ttf.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\poppins_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_bottom_nav_icon.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\bottom_nav_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_grok_meal.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_grok_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_recipe.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_image_placeholder.png.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_image_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_grok_dialog_contacts.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\grok_dialog_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_men.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_men.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_red_overlay_curved.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\red_overlay_curved.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_auth.jpg.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\auth.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_action_shop.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_action_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_geo_tag.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_geo_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_time.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_ingredients.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_ingredients.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_profile_border.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\profile_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_daily_plan.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_daily_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_child_item.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\child_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_map.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_thakali.jpg.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\thakali.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\anim_fab_close.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\anim\\fab_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\menu_shop_menu.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\menu\\shop_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_account.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_contacts.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_chat_user.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_chat_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_olive_overlay_curved.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\olive_overlay_curved.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_poppinslight.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\poppinslight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_add_recipe.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_add_recipe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_ingredient.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_expandable_list_group.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\expandable_list_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_grocery.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_grocery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_badge_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\badge_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_grocery_list.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_grocery_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_circular_badge.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\circular_badge.xml"
+    },
+    {
+        "merged": "edu.sandesh.mealmate.app-debug-50:/drawable_ic_delete.xml.flat",
+        "source": "edu.sandesh.mealmate.app-main-52:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_orange_gradient.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\orange_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_grok_item_ingredient.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\grok_item_ingredient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_delegate.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_delegate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_montserratbold.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\montserratbold.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_meal.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_meal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_modal_contact_location_selection.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\modal_contact_location_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_rounded_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\rounded_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_bottom_sheet_sort_options.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\bottom_sheet_sort_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_list_background.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\list_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_font.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\font.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_meal_selection.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_meal_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_edit_profile_from_dashboard.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_edit_profile_from_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_recipe_detail.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_recipe_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_current_location.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_current_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_bg_chat_user.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\bg_chat_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\font_montserrat_bold.ttf.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\font\\montserrat_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_bottom_sheet_chatbot.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\bottom_sheet_chatbot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_contact.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_filter.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_chat_bot.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_chat_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_card_selected.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\card_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_bg_meal_category.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\bg_meal_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_momo.jpg.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\momo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable-night_logo.png.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable-night\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\menu_profile_menu.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\menu\\profile_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_fragment_meal_selection.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\fragment_meal_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_default_pic.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\default_pic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_instruction.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_instruction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_explore.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_explore.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_group_item.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\group_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\color_bottom_nav_item_color.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\color\\bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_instruction_step.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_instruction_step.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_item_grocery.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\item_grocery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\drawable_ic_grocery.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\drawable\\ic_grocery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-debug-50:\\layout_custom_progress_dialog.xml.flat",
+        "source": "C:\\Users\\Sandesh\\.gradle\\daemon\\8.10.2\\edu.sandesh.mealmate.app-main-52:\\layout\\custom_progress_dialog.xml"
+    }
+]

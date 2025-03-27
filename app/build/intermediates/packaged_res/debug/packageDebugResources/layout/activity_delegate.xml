@@ -1,0 +1,135 @@
+<!-- res/layout/activity_delegate.xml -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5E4"
+    tools:context=".DelegateActivity">
+
+    <!-- App Bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/olive_green"
+            app:title="Delegate Shopping List"
+            app:titleTextColor="#F8F5E4"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#F8F5E4"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Meal Selection (Horizontal RecyclerView) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Meals"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#556B2F"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#F0EBD8"
+            android:layout_marginBottom="8dp">
+            
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMeals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/delegate_item_meal" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Ingredient List (Vertical RecyclerView) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Ingredients"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#556B2F"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#F0EBD8"
+            android:layout_marginBottom="8dp">
+            
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/delegate_item_ingredient" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Share Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <!-- Share via SMS Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonShareSMS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Share via SMS"
+                android:textColor="#F8F5E4"
+                app:icon="@drawable/ic_send"
+                app:iconTint="#F8F5E4"
+                android:layout_marginEnd="4dp"
+                app:backgroundTint="#9A8C65"
+                app:cornerRadius="8dp"
+                style="@style/Widget.MaterialComponents.Button" />
+
+            <!-- Share via Email Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonShareEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Share via Email"
+                android:textColor="#F8F5E4"
+                app:icon="@drawable/ic_send"
+                app:iconTint="#F8F5E4"
+                android:layout_marginStart="4dp"
+                app:backgroundTint="#6B8E23"
+                app:cornerRadius="8dp"
+                style="@style/Widget.MaterialComponents.Button" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

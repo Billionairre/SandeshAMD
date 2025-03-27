@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#556B2F</color>
+    <color name="black">#FF000000</color>
+    <color name="breakfastYellow">#FFEB3B</color>
+    <color name="chip_selector">#FFE0B2</color>
+    <color name="dinnerOrange">#FF7043</color>
+    <color name="error">#D32F2F</color>
+    <color name="light_blue">#4FC3F7</color>
+    <color name="lunchGreen">#4CAF50</color>
+    <color name="navy_blue">#000080</color>
+    <color name="olive_green">#556B2F</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_variant">#F5F5F5</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_surface">#4E342E</color>
+    <color name="on_surface_variant">#8D6E63</color>
+    <color name="primary">#FF6D00</color>
+    <color name="primary_dark">#DD2C00</color>
+    <color name="primary_variant">#DD2C00</color>
+    <color name="red">#F44336</color>
+    <color name="secondary">#FFAB40</color>
+    <color name="success">#2E7D32</color>
+    <color name="surface">#FFE0B2</color>
+    <color name="tertiary">#FF7043</color>
+    <color name="textDarkBrown">#4E342E</color>
+    <color name="textLightBeige">#FFF3E0</color>
+    <color name="violet">#556B2F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFC107</color>
+    <string name="add_ingredient">Add</string>
+    <string name="add_instruction">Add Instruction</string>
+    <string name="age"> Age </string>
+    <string name="alreadyHaveAccountSignIn">Already have an account? <b>Sign In</b></string>
+    <string name="app_name">Meal Mate</string>
+    <string name="app_title">Welcome to MealMate</string>
+    <string name="back_to_sign_in">Back to Sign In</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="choosePass">Choose a password</string>
+    <string name="confirmPass">Confirm your password</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="delegate">Delegate</string>
+    <string name="delegate_title">Delegate Shopping</string>
+    <string name="dinner">Dinner</string>
+    <string name="enterEmail">Enter your email</string>
+    <string name="enterPass"> Enter your password</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="error_invalid_price">Please enter a valid price.</string>
+    <string name="error_no_contact_selected">Please select at least one contact.</string>
+    <string name="error_no_ingredient_selected">Please select at least one ingredient.</string>
+    <string name="error_no_meal_selected">Please select at least one meal category.</string>
+    <string name="error_no_store">Please enter or select a store.</string>
+    <string name="forgotPas">Forgot Password?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="full_name">Full Name </string>
+    <string name="gcm_defaultSenderId" translatable="false">712289667615</string>
+    <string name="gender"> Select Gender </string>
+    <string name="google_api_key" translatable="false">AIzaSyAs0Q7HLSyAq3xeNsPQLXg5wz4bfrZxWUg</string>
+    <string name="google_app_id" translatable="false">1:712289667615:android:4daf413331474e51fde32a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAs0Q7HLSyAq3xeNsPQLXg5wz4bfrZxWUg</string>
+    <string name="google_storage_bucket" translatable="false">sandesh-bh.firebasestorage.app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_cook_time">Enter Cook Time (in Minutes)</string>
+    <string name="hint_missing_ingredient">Enter missing ingredient</string>
+    <string name="hint_recipe_name">Enter the recipe name</string>
+    <string name="home_desc">Eat healthy ,live happily!</string>
+    <string name="ignore">Ignore</string>
+    <string name="imageDec">Background image for MealMate</string>
+    <string name="ingredients_list">Ingredients List</string>
+    <string name="loading">Please wait, MealMate is processing...</string>
+    <string name="location">Location:</string>
+    <string name="logoDesc">This is logo of MealMate </string>
+    <string name="lunch">Lunch</string>
+    <string name="mobile_number">Mobile Number </string>
+    <string name="price">Price (NPR)</string>
+    <string name="profile_image_desc">Profile Image</string>
+    <string name="project_id" translatable="false">sandesh-bh</string>
+    <string name="purchased">Purchased</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="save_profile"> Save Profile</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="savedRecipe">Saved Recipes</string>
+    <string name="select_contacts">Select Contacts</string>
+    <string name="select_meal">Select Meals</string>
+    <string name="select_remote_store">Select Remote Store</string>
+    <string name="signIn">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="sms_message">Will you pick these items for me?</string>
+    <string name="title_instructions">Instructions</string>
+    <string name="title_recipe_name">Recipe Name</string>
+    <string name="total_price">Total Price:</string>
+    <string name="type_store_name">Type Store Name</string>
+    <string name="unpurchased">Unpurchased</string>
+    <string name="update_recipe"> Update Recipe</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_photo">Upload Photo </string>
+    <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="colorPrimary">#6B8E23</item>
+        <item name="colorPrimaryVariant">#556B2F</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">512dp</item>
+    </style>
+    <style name="FullScreenModalStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="behavior_hideable">false</item>
+        <item name="behavior_peekHeight">0dp</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="GenderHintStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#4E342E</item> 
+    </style>
+    <style name="TextAppearance.Heading" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <style name="TextAppearance.Tertiary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/poppins_light</item>
+    </style>
+    <style name="Theme.MealMate" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_variant</item>
+        <item name="android:navigationBarColor">@color/navy_blue</item>
+
+
+            
+        
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="Theme.MealMate.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">#FFC107</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+    <style name="Theme.MealMate.Splash.Legacy" parent="Theme.Material3.Light.NoActionBar">
+            <item name="android:windowBackground">@drawable/splash_background</item>
+        </style>
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator</item>
+        <item name="trackThickness">4dp</item>
+        <item name="indicatorSize">40dp</item>
+        <item name="trackColor">#E0E0E0</item>
+        <item name="indicatorColor">@color/primary</item>
+    </style>
+</resources>
